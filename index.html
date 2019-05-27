@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>حجرة, ورقة, مقص</h1>
+        </header>
+
+        <div class="score-board">
+            <div id="user-label" class="badge">المستخدم</div>
+            <div id="computer-label" class="badge">الحاسوب</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+
+        <div class="result">
+            <p>!الورق يغلب الحجر, انت الفائز</p>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="r">
+                <img src="imgs/rock.png" alt="" style="width:100px;height:100px">
+            </div>
+            <div class="choice" id="p">
+                <img src="imgs/paper.png" alt="" style="width:100px;height:100px">
+            </div>
+            <div class="choice" id="s">
+                <img src="imgs/scissors.png" alt="" style="width:100px;height:100px">
+            </div>
+        </div>
+
+        <p id="action-message">.قم بحركتك</p>
+        <script src="app.js" charset="utf-8"></script>
+    </body>
+</html>
